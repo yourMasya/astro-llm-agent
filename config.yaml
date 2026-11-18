@@ -1,0 +1,70 @@
+# Конфигурация проекта astro-llm-agent.
+# Пути относительны корня репозитория.
+
+dataset:
+  seed: 42
+  n_curves: 40
+  out_csv: data/dataset.csv
+  out_truth: data/ground_truth.json
+  out_card: data/dataset_card.md
+  # Параметры наземного обзора (OGLE/ASAS-SN-подобные)
+  seasons: 2
+  season_len_d: 120.0
+  gap_d: 250.0
+  cadence_base_d: 1.0
+  cadence_jitter: [0.3, 1.7]
+  drop_fraction: [0.05, 0.15]      # случайные пропуски точек
+  noise_base: [0.008, 0.025]       # гетероскедастичный шум (фракция потока)
+  period_range_d: [2.5, 25.0]
+  period_cadence_factor: 2.0       # минимальный период / медианный dt
+
+llm:
+  base_url: https://litellm-proxy.ai.yadro.com
+  api_key_env: INFERENCE_API_KEY
+  model: DeepSeek-V4-Flash
+  temperature: 0.0
+  max_tokens_per_step: 2500
+  # Оценка стоимости по открытым тарифам deepseek-chat (USD за 1M токенов).
+  # Через корпоративный прокси точная цена неизвестна — это верхняя оценка.
+  price_input_per_mtok: 0.27
+  price_output_per_mtok: 1.10
+
+agent:
+  max_steps: 24             # максимум итераций цикла планировщика
+  max_tool_calls: 20
+  max_malformed: 3          # невалидных JSON от LLM до принудительного финала
+  max_consecutive_errors: 3 # сбоев инструмента подряд до честного финала
+  timeout_s: 240
+  obs_char_limit: 3500      # обрезка результатов инструментов в контексте
+  retries_transient: 2      # повторные попытки при транзиентных ошибках
+  retry_backoff_s: [0.5, 1.0]
+  require_min_tool_calls: 2 # задача считается «честно решённой», если агент
+                            # вызвал инструменты хотя бы столько раз
+
+analysis:
+  fap_threshold: 1.0e-3     # период значим, если FAP ниже
+  samples_per_peak: 10
+  n_peaks: 5
+  harmonic_power_ratio: 0.8 # пик в 2f считается гармоникой, если его мощность
+                            # не ниже этой доли от пика в f
+  one_day_alias_tol_d: 0.01 # допуск для предупреждения о суточной алиасинге
+  outlier:
+    method: mad
+    threshold: 5.0          # MAD-отклонение для выброса
+    max_fraction: 0.10      # ограничение доли «выбросов» (защита от абсурда)
+  flare:
+    significance: 5.0       # порог в относительных шумовых единицах
+    min_points: 3
+  dip:
+    significance: 4.0
+    min_points: 3
+
+eval:
+  period_tolerance_frac: 0.05   # допуск на период: |P_pred-P_true|/P_true
+  index_neighbor_tol: 2         # совпадение индекса выброса с допуском ±N
+  budget_usd: 10.0              # бюджет задания
+  tasks_file: tasks/tasks_20.json
+  logs_dir: logs
+  results_dir: report
+  agent_enabled: true
+  baseline_enabled: true

@@ -1,0 +1,301 @@
+{
+  "description": "20 задач hard-набора (протокол v2): те же запросы, что v1, кривые h000-h019 с реалистичными амплитудами аномалий (в σ шума). Ground truth пересчитан из генератора для новых кривых.",
+  "tasks": [
+    {
+      "id": "t01",
+      "curve_id": "h000",
+      "query": "Найди период кривой блеска h000 и оцени, периодична ли она. Если периодична, укажи период в сутках.",
+      "expected": {
+        "periodic": true,
+        "period_days": 20.985033414006416,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t02",
+      "curve_id": "h001",
+      "query": "Кривая h001: определи период в ЧАСАХ. Проверь, периодична ли она.",
+      "expected": {
+        "periodic": true,
+        "period_days": 11.769974421230241,
+        "period_unit": "hours",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t03",
+      "curve_id": "h002",
+      "query": "Периодична ли кривая h002? Ответь да/нет с обоснованием.",
+      "expected": {
+        "periodic": false,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t04",
+      "curve_id": "h003",
+      "query": "Сколько выбросов в кривой h003? Перечисли их индексы.",
+      "expected": {
+        "periodic": null,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [
+          31,
+          34,
+          55,
+          58,
+          65,
+          119,
+          129,
+          155,
+          178,
+          211,
+          231,
+          261,
+          274,
+          276
+        ],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t05",
+      "curve_id": "h004",
+      "query": "Есть ли вспышки в h004? Если да — сколько и какова пиковая амплитуда (в единицах потока)?",
+      "expected": {
+        "periodic": null,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": 3,
+        "dips": null
+      }
+    },
+    {
+      "id": "t06",
+      "curve_id": "h005",
+      "query": "Является ли h005 затменной двойной? Найди орбитальный период и проверь наличие провалов (затмений).",
+      "expected": {
+        "periodic": true,
+        "period_days": 14.267026486795142,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": 25
+      }
+    },
+    {
+      "id": "t07",
+      "curve_id": "h006",
+      "query": "Есть ли в h006 тренд? Есть ли периодичность на фоне тренда? Опиши, как тренд влияет на поиск периода.",
+      "expected": {
+        "periodic": false,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null,
+        "caveat_required": true
+      }
+    },
+    {
+      "id": "t08",
+      "curve_id": "h007",
+      "query": "Затменная двойная h007: определи орбитальный период. Учти, что при двух провалах за цикл периодограмма может дать половину периода.",
+      "expected": {
+        "periodic": true,
+        "period_days": 28.994586800366864,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": 23
+      }
+    },
+    {
+      "id": "t09",
+      "curve_id": "h008",
+      "query": "Полный анализ h008: период, выбросы, вспышки, провалы.",
+      "expected": {
+        "periodic": true,
+        "period_days": 14.167732930878433,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": 0,
+        "dips": 0
+      }
+    },
+    {
+      "id": "t10",
+      "curve_id": "h009",
+      "query": "Найди период h009 и оцени, есть ли в ней провалы. Класс объекта?",
+      "expected": {
+        "periodic": true,
+        "period_days": 23.85420455505817,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": 16
+      }
+    },
+    {
+      "id": "t11",
+      "curve_id": "h010",
+      "query": "Какая доля точек h010 — выбросы? Дай число и долю.",
+      "expected": {
+        "periodic": null,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [
+          34,
+          38,
+          53,
+          61,
+          95,
+          120
+        ],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t12",
+      "curve_id": "h011",
+      "query": "Кривая h011: есть ли вспышки? Есть ли выбросы?",
+      "expected": {
+        "periodic": null,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": 4,
+        "dips": null
+      }
+    },
+    {
+      "id": "t13",
+      "curve_id": "h012",
+      "query": "Проверь h012: есть ли периодичность? Не обманывает ли тренд? Опиши уверенность вывода.",
+      "expected": {
+        "periodic": false,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null,
+        "caveat_required": true
+      }
+    },
+    {
+      "id": "t14",
+      "curve_id": "h013",
+      "query": "Вычисли период h013 в МИНУТАХ. Периодична ли она?",
+      "expected": {
+        "periodic": true,
+        "period_days": 24.861784630870687,
+        "period_unit": "minutes",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t15",
+      "curve_id": "h014",
+      "query": "h014: найди период и сообщи, насколько он надёжен (FAP).",
+      "expected": {
+        "periodic": true,
+        "period_days": 23.240335063088363,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t16",
+      "curve_id": "h015",
+      "query": "Опиши h015: сколько выбросов, есть ли периодичность.",
+      "expected": {
+        "periodic": false,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [
+          19,
+          28,
+          51,
+          90,
+          124
+        ],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t17",
+      "curve_id": "h016",
+      "query": "Опиши кривую h016: стационарна ли она, какие пропуски и покрытие. Надёжен ли был бы вывод о периоде?",
+      "expected": {
+        "periodic": false,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null,
+        "caveat_required": true
+      }
+    },
+    {
+      "id": "t18",
+      "curve_id": "h017",
+      "query": "h017: найди выбросы (индексы) и определи, есть ли периодичность.",
+      "expected": {
+        "periodic": false,
+        "period_days": null,
+        "period_unit": "days",
+        "outliers_indices": [
+          29,
+          40,
+          121,
+          122
+        ],
+        "flares": null,
+        "dips": null
+      }
+    },
+    {
+      "id": "t19",
+      "curve_id": "h018",
+      "query": "Полный анализ h018: период, единицы — часы; выбросы, вспышки, провалы.",
+      "expected": {
+        "periodic": true,
+        "period_days": 8.252086565851801,
+        "period_unit": "hours",
+        "outliers_indices": [],
+        "flares": 0,
+        "dips": 0
+      }
+    },
+    {
+      "id": "t20",
+      "curve_id": "h019",
+      "query": "Кривая h019, подозрение на затменную двойную: определи период. Учти, что при двух провалах за цикл периодограмма может дать половину периода — проверь субгармонику.",
+      "expected": {
+        "periodic": true,
+        "period_days": 14.143117879057794,
+        "period_unit": "days",
+        "outliers_indices": [],
+        "flares": null,
+        "dips": null
+      }
+    }
+  ]
+}

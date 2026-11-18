@@ -1,0 +1,1027 @@
+{
+  "b000": {
+    "P_true": 24.856352656266257,
+    "amplitude": 0.04118494169293864,
+    "harmonics": [
+      0.5588478483237667,
+      0.16112382911956827
+    ],
+    "type": "periodic",
+    "n_points": 138,
+    "curve_id": "b000",
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b001": {
+    "outliers_indices": [
+      25,
+      31,
+      36,
+      155,
+      207,
+      212,
+      219,
+      233
+    ],
+    "type": "outliers",
+    "n_points": 241,
+    "curve_id": "b001",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b002": {
+    "type": "quiet",
+    "n_points": 170,
+    "curve_id": "b002",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b003": {
+    "flares": [],
+    "type": "flare",
+    "n_points": 142,
+    "curve_id": "b003",
+    "P_true": null,
+    "outliers_indices": [],
+    "dips": []
+  },
+  "b004": {
+    "flares": [],
+    "type": "flare",
+    "n_points": 154,
+    "curve_id": "b004",
+    "P_true": null,
+    "outliers_indices": [],
+    "dips": []
+  },
+  "b005": {
+    "slope": 0.0003429213228472531,
+    "type": "trend",
+    "n_points": 353,
+    "curve_id": "b005",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b006": {
+    "P_true": 16.635947245733234,
+    "amplitude": 0.12821073373876177,
+    "harmonics": [
+      0.5663700857930167,
+      0.3680420069553365
+    ],
+    "type": "periodic",
+    "n_points": 339,
+    "curve_id": "b006",
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b007": {
+    "outliers_indices": [
+      1,
+      5,
+      120,
+      128,
+      151,
+      198
+    ],
+    "type": "outliers",
+    "n_points": 208,
+    "curve_id": "b007",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b008": {
+    "P_true": 16.88648980266481,
+    "depth1": 0.09641186150277502,
+    "depth2": 0.015959387992409986,
+    "dips": [
+      [
+        2,
+        4
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        34,
+        35
+      ],
+      [
+        43,
+        45
+      ],
+      [
+        52,
+        53
+      ],
+      [
+        59,
+        60
+      ],
+      [
+        68,
+        70
+      ],
+      [
+        75,
+        75
+      ],
+      [
+        80,
+        81
+      ],
+      [
+        87,
+        89
+      ],
+      [
+        95,
+        99
+      ],
+      [
+        106,
+        108
+      ],
+      [
+        118,
+        120
+      ],
+      [
+        126,
+        126
+      ],
+      [
+        134,
+        135
+      ],
+      [
+        141,
+        141
+      ],
+      [
+        148,
+        149
+      ],
+      [
+        155,
+        157
+      ],
+      [
+        167,
+        168
+      ],
+      [
+        175,
+        176
+      ],
+      [
+        184,
+        185
+      ],
+      [
+        193,
+        194
+      ],
+      [
+        200,
+        201
+      ],
+      [
+        207,
+        209
+      ],
+      [
+        216,
+        219
+      ],
+      [
+        226,
+        227
+      ],
+      [
+        238,
+        239
+      ],
+      [
+        246,
+        247
+      ],
+      [
+        253,
+        253
+      ],
+      [
+        260,
+        261
+      ],
+      [
+        269,
+        270
+      ],
+      [
+        275,
+        275
+      ],
+      [
+        283,
+        284
+      ],
+      [
+        293,
+        294
+      ]
+    ],
+    "type": "eclipsing",
+    "n_points": 302,
+    "curve_id": "b008",
+    "outliers_indices": [],
+    "flares": []
+  },
+  "b009": {
+    "P_true": 12.843447037025204,
+    "amplitude": 0.20772649320089837,
+    "harmonics": [
+      0.21221110097001358,
+      0.1493710708563601
+    ],
+    "type": "periodic",
+    "n_points": 227,
+    "curve_id": "b009",
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b010": {
+    "type": "quiet",
+    "n_points": 307,
+    "curve_id": "b010",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b011": {
+    "slope": 0.0002993939061671559,
+    "type": "trend",
+    "n_points": 311,
+    "curve_id": "b011",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b012": {
+    "outliers_indices": [
+      4,
+      45,
+      60,
+      61,
+      84,
+      106,
+      126,
+      153,
+      154
+    ],
+    "type": "outliers",
+    "n_points": 181,
+    "curve_id": "b012",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b013": {
+    "outliers_indices": [
+      16,
+      53,
+      128,
+      147,
+      182,
+      247,
+      282
+    ],
+    "type": "outliers",
+    "n_points": 306,
+    "curve_id": "b013",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b014": {
+    "outliers_indices": [
+      89,
+      139,
+      189,
+      190,
+      214
+    ],
+    "type": "outliers",
+    "n_points": 229,
+    "curve_id": "b014",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b015": {
+    "outliers_indices": [
+      0,
+      15,
+      20,
+      38,
+      66,
+      101,
+      123
+    ],
+    "type": "outliers",
+    "n_points": 147,
+    "curve_id": "b015",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b016": {
+    "type": "quiet",
+    "n_points": 129,
+    "curve_id": "b016",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b017": {
+    "P_true": 10.093447856415091,
+    "amplitude": 0.16240761793504313,
+    "harmonics": [
+      0.25002382342438795,
+      0.34889610405625204
+    ],
+    "type": "periodic",
+    "n_points": 267,
+    "curve_id": "b017",
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b018": {
+    "slope": 0.0004433333961624653,
+    "type": "trend",
+    "n_points": 192,
+    "curve_id": "b018",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b019": {
+    "flares": [],
+    "type": "flare",
+    "n_points": 229,
+    "curve_id": "b019",
+    "P_true": null,
+    "outliers_indices": [],
+    "dips": []
+  },
+  "b020": {
+    "type": "quiet",
+    "n_points": 316,
+    "curve_id": "b020",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b021": {
+    "flares": [
+      [
+        162,
+        170
+      ],
+      [
+        215,
+        223
+      ]
+    ],
+    "type": "flare",
+    "n_points": 303,
+    "curve_id": "b021",
+    "P_true": null,
+    "outliers_indices": [],
+    "dips": []
+  },
+  "b022": {
+    "P_true": 17.509511114813442,
+    "depth1": 0.22696916453290927,
+    "depth2": 0.011666948135943695,
+    "dips": [
+      [
+        0,
+        1
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        30,
+        31
+      ],
+      [
+        38,
+        39
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        53,
+        54
+      ],
+      [
+        61,
+        61
+      ],
+      [
+        67,
+        67
+      ],
+      [
+        73,
+        74
+      ],
+      [
+        82,
+        82
+      ],
+      [
+        91,
+        91
+      ],
+      [
+        108,
+        108
+      ],
+      [
+        117,
+        117
+      ],
+      [
+        124,
+        124
+      ],
+      [
+        131,
+        132
+      ],
+      [
+        140,
+        140
+      ],
+      [
+        146,
+        147
+      ],
+      [
+        153,
+        153
+      ],
+      [
+        160,
+        162
+      ],
+      [
+        169,
+        171
+      ],
+      [
+        180,
+        180
+      ],
+      [
+        186,
+        186
+      ],
+      [
+        193,
+        196
+      ],
+      [
+        202,
+        202
+      ],
+      [
+        214,
+        214
+      ],
+      [
+        221,
+        222
+      ],
+      [
+        230,
+        231
+      ],
+      [
+        239,
+        241
+      ]
+    ],
+    "type": "eclipsing",
+    "n_points": 245,
+    "curve_id": "b022",
+    "outliers_indices": [],
+    "flares": []
+  },
+  "b023": {
+    "slope": 0.0004463905527753182,
+    "type": "trend",
+    "n_points": 289,
+    "curve_id": "b023",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b024": {
+    "outliers_indices": [
+      10,
+      39,
+      83,
+      96,
+      98,
+      108,
+      136
+    ],
+    "type": "outliers",
+    "n_points": 155,
+    "curve_id": "b024",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b025": {
+    "type": "quiet",
+    "n_points": 280,
+    "curve_id": "b025",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b026": {
+    "flares": [
+      [
+        145,
+        153
+      ]
+    ],
+    "type": "flare",
+    "n_points": 196,
+    "curve_id": "b026",
+    "P_true": null,
+    "outliers_indices": [],
+    "dips": []
+  },
+  "b027": {
+    "outliers_indices": [
+      18,
+      33,
+      65,
+      69,
+      134,
+      140,
+      147,
+      150,
+      182
+    ],
+    "type": "outliers",
+    "n_points": 190,
+    "curve_id": "b027",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b028": {
+    "type": "quiet",
+    "n_points": 198,
+    "curve_id": "b028",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b029": {
+    "flares": [
+      [
+        119,
+        122
+      ]
+    ],
+    "type": "flare",
+    "n_points": 308,
+    "curve_id": "b029",
+    "P_true": null,
+    "outliers_indices": [],
+    "dips": []
+  },
+  "b030": {
+    "flares": [],
+    "type": "flare",
+    "n_points": 236,
+    "curve_id": "b030",
+    "P_true": null,
+    "outliers_indices": [],
+    "dips": []
+  },
+  "b031": {
+    "P_true": 15.181312081696282,
+    "depth1": 0.22017569742179727,
+    "depth2": 0.014869176732653804,
+    "dips": [
+      [
+        4,
+        5
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        23
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        41,
+        43
+      ],
+      [
+        48,
+        49
+      ],
+      [
+        53,
+        54
+      ],
+      [
+        62,
+        65
+      ],
+      [
+        68,
+        68
+      ],
+      [
+        73,
+        74
+      ],
+      [
+        77,
+        78
+      ],
+      [
+        84,
+        86
+      ],
+      [
+        90,
+        93
+      ],
+      [
+        95,
+        95
+      ],
+      [
+        101,
+        103
+      ],
+      [
+        109,
+        110
+      ],
+      [
+        116,
+        118
+      ],
+      [
+        121,
+        121
+      ],
+      [
+        126,
+        129
+      ],
+      [
+        132,
+        133
+      ],
+      [
+        140,
+        142
+      ],
+      [
+        147,
+        147
+      ],
+      [
+        153,
+        157
+      ],
+      [
+        162,
+        162
+      ],
+      [
+        167,
+        167
+      ],
+      [
+        171,
+        172
+      ],
+      [
+        180,
+        182
+      ],
+      [
+        186,
+        187
+      ],
+      [
+        196,
+        197
+      ],
+      [
+        204,
+        204
+      ],
+      [
+        209,
+        211
+      ],
+      [
+        217,
+        218
+      ],
+      [
+        222,
+        223
+      ],
+      [
+        230,
+        231
+      ],
+      [
+        236,
+        236
+      ],
+      [
+        242,
+        245
+      ],
+      [
+        249,
+        250
+      ],
+      [
+        255,
+        258
+      ],
+      [
+        263,
+        264
+      ],
+      [
+        270,
+        272
+      ],
+      [
+        276,
+        278
+      ],
+      [
+        285,
+        287
+      ],
+      [
+        291,
+        292
+      ]
+    ],
+    "type": "eclipsing",
+    "n_points": 295,
+    "curve_id": "b031",
+    "outliers_indices": [],
+    "flares": []
+  },
+  "b032": {
+    "P_true": 2.5705944467918247,
+    "amplitude": 0.21083385357916168,
+    "harmonics": [
+      0.3234456843221246,
+      0.17461689631237892
+    ],
+    "type": "periodic",
+    "n_points": 167,
+    "curve_id": "b032",
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b033": {
+    "type": "quiet",
+    "n_points": 257,
+    "curve_id": "b033",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b034": {
+    "slope": 0.0003284044300239725,
+    "type": "trend",
+    "n_points": 306,
+    "curve_id": "b034",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b035": {
+    "P_true": 3.424319765673343,
+    "amplitude": 0.06339838397034427,
+    "harmonics": [
+      0.4972327195779143,
+      0.2457021336061884
+    ],
+    "type": "periodic",
+    "n_points": 374,
+    "curve_id": "b035",
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b036": {
+    "slope": 0.00041798159692991554,
+    "type": "trend",
+    "n_points": 218,
+    "curve_id": "b036",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  },
+  "b037": {
+    "outliers_indices": [
+      44,
+      70,
+      141,
+      147,
+      169,
+      188,
+      218
+    ],
+    "type": "outliers",
+    "n_points": 293,
+    "curve_id": "b037",
+    "P_true": null,
+    "flares": [],
+    "dips": []
+  },
+  "b038": {
+    "P_true": 22.183759042439263,
+    "depth1": 0.2036415261507546,
+    "depth2": 0.012682211783694601,
+    "dips": [
+      [
+        5,
+        7
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        29,
+        29
+      ],
+      [
+        36,
+        38
+      ],
+      [
+        45,
+        46
+      ],
+      [
+        54,
+        56
+      ],
+      [
+        66,
+        68
+      ],
+      [
+        77,
+        80
+      ],
+      [
+        87,
+        88
+      ],
+      [
+        91,
+        91
+      ],
+      [
+        101,
+        104
+      ],
+      [
+        111,
+        112
+      ],
+      [
+        122,
+        124
+      ],
+      [
+        136,
+        136
+      ],
+      [
+        145,
+        147
+      ],
+      [
+        153,
+        153
+      ],
+      [
+        161,
+        164
+      ],
+      [
+        171,
+        172
+      ],
+      [
+        182,
+        184
+      ],
+      [
+        190,
+        191
+      ]
+    ],
+    "type": "eclipsing",
+    "n_points": 192,
+    "curve_id": "b038",
+    "outliers_indices": [],
+    "flares": []
+  },
+  "b039": {
+    "type": "quiet",
+    "n_points": 195,
+    "curve_id": "b039",
+    "P_true": null,
+    "outliers_indices": [],
+    "flares": [],
+    "dips": []
+  }
+}
